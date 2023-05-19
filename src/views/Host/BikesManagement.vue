@@ -288,7 +288,7 @@ export default {
             },
           }
         );
-        alert("Đăng ký xe thành công");
+        this.getBikes();
       } catch (err) {
         alert("Đăng ký xe thất bại");
         console.log(err);

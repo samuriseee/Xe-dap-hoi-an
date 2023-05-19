@@ -33,6 +33,9 @@
         <button class="becomeHost" v-if="userRole == 'NCT'">
           <router-link to="/host/bikesManagement">Quản lý xe</router-link>
         </button>
+        <button class="becomeHost" v-if="userRole == 'QTV'">
+          <router-link to="/admin">Quản lý website</router-link>
+        </button>
         <router-link class="profile" to="/profile">
           <div class="avatar">{{ spliceUsernameToMakeAvatar }}</div>
           <p style="font-size: 17px; margin-right: 10px">
